@@ -1,0 +1,36 @@
+.container {
+  padding: 10px 15px;
+}
+
+.limitar_secao {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+.link {
+  font-size: 18px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #000;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  .limitar_secao {
+    flex-direction: column;
+  }
+
+  .navegacao {
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid #aaadaf;
+  }
+}
