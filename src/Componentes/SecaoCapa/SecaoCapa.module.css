@@ -1,0 +1,70 @@
+.secao_capa {
+  height: 80vh;
+  background: linear-gradient(47deg, #000113 0%, #04061d 80%, #04061d 100%);
+  background-image: url("/capa.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+}
+
+.limitar_secao {
+  width: 100%;
+  max-width: 700px;
+  padding-left: 100px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+
+.limitar_secao p,
+.limitar_secao h1 {
+  font-family: "Anybody", cursive;
+  margin: 6px 0;
+  text-align: center;
+}
+
+.limitar_secao p {
+  font-size: 20px;
+  color: rgb(196, 196, 196);
+  line-height: 26px;
+}
+
+.limitar_secao h1 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+  margin: 6px 0;
+  line-height: 48px;
+  letter-spacing: 2px;
+  word-break: keep-all;
+}
+
+@media (max-width: 768px) {
+  .limitar_secao {
+    padding-left: 40px;
+    max-width: 500px;
+  }
+  .limitar_secao h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  .limitar_secao p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@media (max-width: 550px) {
+  .secao_capa {
+    background-position: 89% center;
+  }
+  .limitar_secao {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-left: 20px;
+    max-width: 100%;
+  }
+}
