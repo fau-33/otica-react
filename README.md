@@ -4,9 +4,7 @@ Acabei de finalizar o desenvolvimento de um **site moderno e responsivo** utiliz
 
 ## 📸 Layout do Projeto
 
-## 📸 Layout do Projeto
-
-<img src="/public/layout-final.jpeg" alt="Layout do Projeto" width="800"/>
+<img src="/public/layout-final.jpeg" alt="Layout do Projeto" width="400" heigth="400"/>
 
 ## 🔹 Seções Desenvolvidas
 
