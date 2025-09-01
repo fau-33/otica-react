@@ -4,7 +4,9 @@ Acabei de finalizar o desenvolvimento de um **site moderno e responsivo** utiliz
 
 ## 📸 Layout do Projeto
 
-![Layout do Projeto](https://raw.githubusercontent.com/fau-33/otica-react/main/public/layout.jpeg)
+## 📸 Layout do Projeto
+
+<img src="/public/layout-final.jpeg" alt="Layout do Projeto" width="800"/>
 
 ## 🔹 Seções Desenvolvidas
 
