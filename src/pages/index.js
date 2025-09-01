@@ -1,3 +1,4 @@
+import Rodape from "@/Componentes/Rodape";
 import SecaoCapa from "@/Componentes/SecaoCapa";
 import SecaoContato from "@/Componentes/SecaoContato";
 import SecaoProdutos from "@/Componentes/SecaoProdutos";
@@ -12,6 +13,7 @@ export default function Home() {
       <SecaoProdutos />
       <SecaoSobre />
       <SecaoContato />
+      <Rodape />
     </div>
   );
 }
