@@ -1,12 +1,13 @@
 import SecaoCapa from "@/Componentes/SecaoCapa";
+import SecaoProdutos from "@/Componentes/SecaoProdutos";
 import Topo from "@/Componentes/Topo";
-import styles from "@/styles/Home.module.css";
 
 export default function Home() {
   return (
     <div>
       <Topo />
       <SecaoCapa />
+      <SecaoProdutos />
     </div>
   );
 }
